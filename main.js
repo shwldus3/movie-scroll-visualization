@@ -64,8 +64,8 @@ async function makeChart() {
 
   // 3. 라인 차트 그리기
   //  1) d3.line과 x, y메소드 구현
-  //    - x {key}는 'date'
-  //    - y {key}는 'value'
+  //    - x척도 반영, x {key}는 'date'
+  //    - y척도 반영, y {key}는 'value'
   const line = 
 
 
@@ -75,7 +75,7 @@ async function makeChart() {
   //    - data binding : data 변수
   //    - d 속성 : line 변수  
   //    - fill 속성 : 'none'
-  //    - stroke 속성 : d3.schemeTableau10[0]
+  //    - stroke 속성 : blue 또는 d3.schemeTableau10[0]
   svg.append(
 
     
