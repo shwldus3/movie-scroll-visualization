@@ -20,7 +20,7 @@ export function scroller(visFuncList){
 
     function setSectionPositions() {
         let startPos;
-        sectionPositions = [];
+        sectionPositions = []; // .step의 top위치값이 들어가는 배열 
 
         // 1. .step 위치 파악하기
         // [start]
@@ -29,7 +29,7 @@ export function scroller(visFuncList){
     }
 
     function showCurrentVis() {
-        const pos = window.pageYOffset - 300 - containerStart;
+        const pos = window.pageYOffset - 300 - containerStart; // 현재 위치 값(상단)
 
         // 2. 현재 위치 알아내기
         // [start]
