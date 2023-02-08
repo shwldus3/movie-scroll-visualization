@@ -29,14 +29,14 @@ async function makeChart() {
 
   // 1. x 척도 구현하기
   //  - 시간척도(UTC)를 사용
-  //  - domain : d3.extent(dates)
+  //  - domain : 날짜 배열 데이터인 dates를 활용 
   //  - range : [margin.left, width - margin.right] 
   const xScale =
 
 
   // 1. y 척도 구현하기
   //  - 선형척도를 사용
-  //  - domain : [0, d3.max(data, d => d.value)]
+  //  - domain : data 배열의 value 항목 사용
   //  - range : [height - margin.bottom, margin.top] 
   const yScale =
 
