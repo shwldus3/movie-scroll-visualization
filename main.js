@@ -29,7 +29,7 @@ async function makeChart() {
 
   // 1. x 척도 구현하기
   //  - 시간척도(UTC)를 사용
-  //  - domain : 날짜 배열 데이터인 dates를 활용 
+  //  - domain : 날짜 배열 데이터인 dates를 사용 
   //  - range : [margin.left, width - margin.right] 
   const xScale =
 
